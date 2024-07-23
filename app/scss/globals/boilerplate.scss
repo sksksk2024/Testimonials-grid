@@ -1,0 +1,45 @@
+@use '../util/' as *;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: var(--ltgrayblue);
+  height: 100vh;
+  padding: rem(20) rem(10) 0 rem(10);
+
+  .attribution {
+    font-size: rem(20);
+    margin-top: rem(60);
+    text-align: center; 
+    margin-bottom: 40px;
+
+    a {
+      color: hsl(228, 45%, 44%);
+    }
+  }
+
+  // main {
+  //   @media (min-width: 48em) {
+  //     display: grid;
+  //     grid-template-columns: 1fr 1fr 1fr;
+  //     grid-template-rows: 1fr 1fr;
+  //     gap: rem(20);
+  //     width: auto;
+  //     max-width: rem(1200);
+  //   }
+  // }
+}

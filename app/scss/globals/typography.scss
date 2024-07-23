@@ -1,0 +1,37 @@
+@use '../util' as *;
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: rem(10);
+  line-height: 1.1;
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+a,
+a:visited,
+a:hover {
+  cursor: pointer;
+}
+
+p {
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: rem(13);
+  opacity: 70%;
+  overflow-wrap: break-word;
+  margin-bottom: rem(-10);
+
+  @media (min-width: 54em) {
+    margin-bottom: rem(-30);
+  }
+}
