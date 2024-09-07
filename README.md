@@ -1,3 +1,5 @@
+## I remember this was a big struggle for me('cus that time I didn't know much grid and flex) and I did it on my own!! Proud of this one
+
 # Frontend Mentor - Testimonials grid section
 
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
